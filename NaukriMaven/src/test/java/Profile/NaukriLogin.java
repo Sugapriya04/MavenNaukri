@@ -20,7 +20,7 @@ public class NaukriLogin extends BaseTest{
 
 	public void verifyLoginTest() throws IOException {
 		RealExcelData d1=new RealExcelData();
-		ArrayList data=d1.getData("Invalid UserName");
+		ArrayList data=d1.getData("Valid");
 	    String username=(String) data.get(0);
 	    String password=(String) data.get(1);
 
